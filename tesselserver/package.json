@@ -1,0 +1,33 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e html,js,css ./path/to/your/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axverma/wikistack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axverma/wikistack/issues"
+  },
+  "homepage": "https://github.com/axverma/wikistack#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "nunjucks": "^3.0.1",
+    "pg": "^6.2.4",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
